@@ -53,9 +53,10 @@ U ovoj lekciji pokazaćemo:
 	2. Unos novog elementa u listu 
 	3. Modifikacija/Izmena postojećeg elementa u listi (korisnik prosledi naziv elementa koji želi da izmeni)
 	4. Brisanje postojećeg elementa iz liste (korisnik prosledi naziv elementa koji želi da obriše)
-   Prepušteno je vama da birate podatke koji će se nalaziti u listi. Npr. list životinja, boja, škola, itd.
-   Lista treba samo da sadrži jedinstvene nazive. (boja: ["crvena", "plava", "zelena"])).
-   Prilikom pokretanja programa zadati inicijalne vrednosti liste.
+	
+Prepušteno je vama da birate podatke koji će se nalaziti u listi. Npr. list životinja, boja, škola, itd.
+Lista treba samo da sadrži jedinstvene nazive. (boja: ["crvena", "plava", "zelena"])).
+Prilikom pokretanja programa zadati inicijalne vrednosti liste.
 	
 
 # Domaći #
