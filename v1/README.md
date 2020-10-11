@@ -3,7 +3,7 @@
 ## Instalacija Python 
 
 **Python3** možete skinuti sa sledećeg [link](https://www.python.org/downloads/)-a 
-U zavisnosti od operativnog sistema odabraćete odgovarajuću **Python 3.9.0** verziju. Postoje dve verzije **Python** (**Python 2** i **Python 3**). Na ovom predmetu mi ćemo da koristimo najnoviju verziju **Python 3**. **Python 2** je star verzija Python-a i više nema podrške za ovu verziju. Ne postoji velika razlika između ovih verzija. Postoji manja razlika u sintaksi.
+U zavisnosti od operativnog sistema odabraćete odgovarajuću **Python 3.9.0** verziju. Postoje dve verzije **Python** (**Python 2** i **Python 3**). Na ovom predmetu mi ćemo da koristimo najnoviju verziju **Python 3**. **Python 2** je stara verzija Python-a i više ne postoji podrška za ovu verziju. Ne postoji velika razlika između ovih verzija. Postoji manja razlika u sintaksi.
 
 ## Instalacija okruženja
 
@@ -14,8 +14,16 @@ Alternative: Notepad++, Jupyter Notebook
 
 # Uvod 
 
-Program je samo sekvenca naredbi koje govore računaru šta treba da uradi. Uz pomoć programskog jezika mi možemo računaru da zadajemo ove naredbe. Naredbe se pišu po sintaksi i sematici odabranog programskog jezika npr. c = a + b. Ali ova naredba mora da se prevede iz jezika visokog nivoa u mašinski jezik. Ovo može da se postigne na dva načina: *kompajlerom* ili *interpreterom*. Kompajler je program koji izvorni kod (pisan u programskom jeziku visokog nivoa) prevodi u mašinski kod koji se dalje izvršava. Interpreter je program koji simulira kompjuter koji razume programske jezike visokog nivoa. Ne prevodi se izvorni kod u mašinski.
-Python je programski jezik visokog nivoa koji koristi interpreter prilikom pokretanja programa. Program se izvršava linija po linija (sekvencijalno).
+Program je sekvenca naredbi koje govore računaru šta treba da uradi. Uz pomoć programskog jezika mi možemo računaru da zadajemo ove naredbe. Naredbe se pišu po sintaksi i sematici odabranog programskog jezika npr. c = a + b. Ali ova naredba mora da se prevede iz jezika visokog nivoa u mašinski jezik. Ovo može da se postigne na dva načina: *kompajlerom* ili *interpreterom*. Kompajler je program koji izvorni kod (pisan u programskom jeziku visokog nivoa) prevodi u mašinski kod koji se dalje izvršava (Slika 1.). Interpreter je program koji simulira kompjuter koji razume programske jezike visokog nivoa. Ne prevodi se izvorni kod u mašinski. (Slika 2.)
+Python je programski jezik visokog nivoa koji koristi interpreter prilikom pokretanja programa. Program se izvršava linija po linija.
+
+![compiling](https://user-images.githubusercontent.com/72657672/95679953-5d3b3400-0bd6-11eb-894c-0bf07e20b757.png)
+
+Slika 1. Kompajliranje jezika visokog nivoa Slika je preuzeta iz [knige](https://iran-lms.com/images/images/Books/PDF/Python-Programming_-An-Introduction-to-Computer-Science-Franklin-Beedle--Associates-2016---John-M.-Zelle.pdf).
+
+![interpreting](https://user-images.githubusercontent.com/72657672/95679954-5dd3ca80-0bd6-11eb-890e-93c2e2b9572e.png)
+
+Slika 2. Interpretiranje jezika visokog nivoa. Slika je preuzeta iz [knige](https://iran-lms.com/images/images/Books/PDF/Python-Programming_-An-Introduction-to-Computer-Science-Franklin-Beedle--Associates-2016---John-M.-Zelle.pdf).
 
 U ovoj lekciji pokazaćemo:
 #### Primer01 ####
