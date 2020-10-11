@@ -1,4 +1,4 @@
-# ** Instalacija i podešavanje okruženja **
+# Instalacija i podešavanje okruženja #
 
 ## Instalacija Python 
 
