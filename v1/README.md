@@ -7,7 +7,7 @@ U zavisnosti od operativnog sistema odabraćete odgovarajuću **Python 3.9.0** v
 
 ## Instalacija okruženja
 
-Na ovom predmetu čemo koristiti **PyCharm** IDE (Integration Development Enviorment). IDE je softverska aplikacija uz pomoć koje možemo da razvijamo aplikacije u raznim programskim jezicima. 
+Na ovom predmetu čemo koristiti **PyCharm** IDE (Integrated Development Enviorment). IDE je softverska aplikacija uz pomoć koje možemo da razvijamo aplikacije u raznim programskim jezicima. 
 PyCharm možete da skinete sa sledećeg [link](https://www.jetbrains.com/pycharm/download/#section=windows)-a. Postoje dve verzije. PyCharm Professional je plaćena verzija koju možete da skinete i da se registrujete uz pomoć vaših školskih email adresa. PyCharm Community je besplatna verzija. Bilo koja verzija PyCharm-a je u redu da se instalira za potrebe ovog predmeta.
 
 Alternative: Notepad++, Jupyter Notebook
@@ -55,7 +55,7 @@ U ovoj lekciji pokazaćemo:
 	4. Brisanje postojećeg elementa iz liste (korisnik prosledi naziv elementa koji želi da obriše)
 	
 Prepušteno je vama da birate podatke koji će se nalaziti u listi. Npr. list životinja, boja, škola, itd.
-Lista treba samo da sadrži jedinstvene nazive. (boja: ["crvena", "plava", "zelena"])).
+Lista treba samo da sadrži jedinstvene nazive. (boja: ["crvena", "plava", "zelena"]).
 Prilikom pokretanja programa zadati inicijalne vrednosti liste.
 	
 
