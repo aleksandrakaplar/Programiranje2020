@@ -24,8 +24,8 @@ Napomena: Validacija prilikom unosa nije neophodno implementirati. Koristiti pok
 #### Primer: 
 	
 	A = [ 1 2 3
-		  4 5 6
-		  7 8 9 ]
+	      4 5 6
+	      7 8 9 ]
 		  
 	sumPoDijagonali(redovi, kolone, A) // Suma elemenata po dijagonali: 15
 
