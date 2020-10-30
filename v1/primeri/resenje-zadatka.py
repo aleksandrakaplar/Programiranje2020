@@ -64,5 +64,5 @@ if __name__ == '__main__':
         elif option == '4':
             delete_school()
         elif option == "x":
-            print("Kraj programa")
+            print("Shutdown")
             break
