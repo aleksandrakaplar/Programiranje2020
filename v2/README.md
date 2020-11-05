@@ -33,8 +33,10 @@ Rečnik je ugrađen tip podatka u Pythonu. Rečnik je kolekcija koja je neuređe
 1. Rad sa rečnikom  
 
 # Zadaci 
-
-1. Omogućiti perzistenciju (čuvanje) podataka u tekstualnu datoteku. Proširiti zadatak 1 iz prethodne nedelje tako da se lista elemenata iščitava iz fajla, nakon svih operacija (dodavanje, modifikacija, brisanje) izmene se čuvaju u fajl.
+1. Napisati program koji kao rezultat vraća broj ponavljanja karaktera u fajlu. Karakter se unosi iz konzole.
+2. Napisati program koji čuva listu podataka u fajl. Podaci su odvojeni sa delimiterom.
+3. Napisati zadatak koji iščitava podatke iz prethodnog zadatka i upisuje ih u listu.
+4. Omogućiti perzistenciju (čuvanje) podataka u tekstualnu datoteku. Proširiti zadatak 1 iz prethodne nedelje tako da se lista elemenata iščitava iz fajla, nakon svih operacija (dodavanje, modifikacija, brisanje) izmene se čuvaju u fajl.
 
 # Domaci 
 
@@ -44,6 +46,34 @@ Rečnik je ugrađen tip podatka u Pythonu. Rečnik je kolekcija koja je neuređe
         unesite frazu: random access memory
         akronim za unetu frazu je: RAM
 
+2. Napisati program koji od korisnika traži da unese dva stringa i formira novi string koji se sastoji od dva puta ponovljena prva tri karaktera iz prvog stringa i poslednja tri karaktera prethodnog stringa.
 
+		Primer izvršavanja programa:
+		
+		unesite prvi string: abcdef
+		unesite drugi string: ghijkl 
+		abcabcjkl
 
+3. Napisati program za registrovanje korisnika. Program treba da omogući korisniku da unese korisničko ime i lozinku. Informacije o korisniku čuvaju se u tekstualnom fajlu.
+
+		Primer izvršavanja programa:
+		korisnicko ime: pera
+		lozinka: peric 
+		>>> =========================== RESTART
+		korisnicko ime: jova
+		lozinka: jovic
+		
+		Fajl korisnici.txt treba da sadrži sledeće podatke:
+		
+		pera|peric 
+		jova|jovic
+		steva|stevic
+		
+4. Napisati program koji učitava iz tekstualnog fajla korisnička i mena i ispisuje ih. Za fajl korisnici.txt iz prethodnog zadatka nakon uzvršavanja programa treba da bude prikazano:
+		
+		korisnicko ime: pera
+		lozinka: peric
+		
+		korisnicko ime: jova
+		lozinka: jovic
 

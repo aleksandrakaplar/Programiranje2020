@@ -1,0 +1,2 @@
+Number of characters in this string
+This file is a test file
