@@ -62,6 +62,9 @@ Rečnik je ugrađen tip podatka u Pythonu. Rečnik je kolekcija koja je neuređe
 		>>> =========================== RESTART
 		korisnicko ime: jova
 		lozinka: jovic
+		>>> =========================== RESTART
+		korisnicko ime: steva
+		lozinka: stevic
 		
 		Fajl korisnici.txt treba da sadrži sledeće podatke:
 		
@@ -76,4 +79,7 @@ Rečnik je ugrađen tip podatka u Pythonu. Rečnik je kolekcija koja je neuređe
 		
 		korisnicko ime: jova
 		lozinka: jovic
+		
+		korisnicko ime: steva
+		lozinka: stevic
 
