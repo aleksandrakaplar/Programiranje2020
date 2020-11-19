@@ -18,9 +18,6 @@ Redosled izvršavanja operacije prilikom rada sa fajlom:
 
 Skup je ugrađen tipa podatka u Pythonu. Skup je neuređena kolecija koja ne sadrži duplikate. Uz pomoć skupova možete da proverite postojanje elementa u skupu i da otklonite duplikate. Skupovi podržavaju matematičke operacije kao što je unija, presek, razlika i simetrična razlika.
 
-## Rad sa rečnikom 
-
-Rečnik je ugrađen tip podatka u Pythonu. Rečnik je kolekcija koja je neuređena, promenljiva i indeksirana. Rečnik se navodi sa vitičastim zagradama i imaju  parove ključ-vrednost. 
 
 ### Primer01 ###
 1. Čitanje i pisanje sadržaja txt fajla
