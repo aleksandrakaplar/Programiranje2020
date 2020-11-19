@@ -26,8 +26,6 @@ Skup je ugrađen tipa podatka u Pythonu. Skup je neuređena kolecija koja ne sad
 ### Primer02 ###
 1. Rad sa skupom
 
-### Primer03 
-1. Rad sa rečnikom  
 
 # Zadaci 
 1. Napisati program koji kao rezultat vraća broj ponavljanja karaktera u fajlu. Karakter se unosi iz konzole.
