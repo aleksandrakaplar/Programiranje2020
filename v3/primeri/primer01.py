@@ -61,9 +61,10 @@ for value in students.values():
 print("\n====================================")
 print("6. Other useful dictionary methods")
 
-# update() method inserts an item to the dictionary
+# update() method can insert more than one item
 print("Update students: dict.update({key:value})")
-students.update({"4" : "Mika Mikic"})
+students.update({"4" : "Mika Mikic", "6" : "Ana Anic"})
+print(students)
 students.update({"1" : "Mika Mikic"})
 print(students)
 
@@ -95,7 +96,7 @@ students.pop('1') # remove entry with key '1'
 print(students)
 
 # What happens if we uncomment the next line
-# students.pop('4') # remove entry with key '4'
+# students.pop('10') # remove entry with key '10'
 
 print("Empty dictionary")
 students.clear()
