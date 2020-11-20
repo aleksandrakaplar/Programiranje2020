@@ -12,9 +12,10 @@ students = {
     "1": "Pera Peric",
     "2": "Zika Zika",
     "3": "Sima Simic",
-    # "1": "Laza Lazic" # what will happen if we uncomment this key-value pair?
+    #"1": "Laza Lazic" # what will happen if we uncomment this key-value pair?
 }
 
+# students["2"] = "Novi Student"
 students["5"] = "Nikola Nikolic"
 
 print(students)
@@ -46,17 +47,17 @@ print("5. List all elements")
 print("List all elements with: dict.keys()")
 # dict.keys() returns a list of keys
 for key in students.keys():
-    print(students[key],'\n', end="")
+    print(students[key]) # vrednost
 
 print("List all elements with: dict.items()")
 # dict.items() returns a list of (key, value) tuple pairs
 for key, value in students.items():
-    print(key, value, '\n', end="")
+    print(key, value)
 
 print("List all elements with: dict.values()")
 # dict.values() returns a list of values
 for value in students.values():
-    print(value, '\n', end="")
+    print(value)
 
 print("\n====================================")
 print("6. Other useful dictionary methods")
@@ -79,7 +80,15 @@ print("New Students:")
 print(new_students)
 
 print("\n====================================")
-print("7. Delete dictionary elements")
+print("7. Check if an element exists.")
+
+if "3" in students.keys():
+    print("Exists!")
+else:
+    print("Doesnt!")
+
+print("\n====================================")
+print("8. Delete dictionary elements")
 
 # removes last inserted item, in versions before 3.7
 # removes random element
