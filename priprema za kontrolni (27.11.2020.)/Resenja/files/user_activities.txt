@@ -1,0 +1,6 @@
+Marko|15|100
+Pera|18|120
+Pera|13|120
+Nikola|16|130
+Pera|13|120
+Marko|112|13

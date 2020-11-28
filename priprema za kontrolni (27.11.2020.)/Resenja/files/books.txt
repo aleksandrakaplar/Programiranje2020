@@ -1,0 +1,4 @@
+1|Jane Austen|Pride and Prejudice|1813
+2|Daniel Defoe|Robinson Crusoe|1719
+3|J. K. Rowling|Fantastic Beasts and Where to Find Them|2001
+4|J. K. Rowling|Harry Potter and the Philosopher's Stone|1997
