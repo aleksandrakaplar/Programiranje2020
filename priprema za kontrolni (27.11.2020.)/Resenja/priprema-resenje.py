@@ -43,16 +43,17 @@ def total_number_of_reactions():
 def minimal_flight_distance():
     min_flight_distance = input("Minimal flight distance>>>")
     
-    minimum = False
+    no_minimum = True
     print("Flights")
     
     with open("files/flights.txt") as f: 
         for flight in f.readlines():
             flight_dist = flight.split('|')[-1]
             if int(min_flight_distance) <= int(flight_dist): 
+                no_minimum = False
                 print(flight)
     
-    if not minimum: 
+    if no_minimum: 
         print("No flights")
     
 if __name__ == "__main__":
