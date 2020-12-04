@@ -23,9 +23,9 @@ Sadržaj txt fajla atleticari.txt:
 	Marko|Petak|8000
 
 Na početku programa korisnik unosi ime atletičara iz konzole, nakon čega se na ekranu ispisuje:
-Grupa A - dan u nedelji u kome je atletičar prešao najveću udaljenost i ispisuje se pređena udaljenost za taj dan.
-Grupa B - dan u nedelji u kome je atletičar prešao najmanju udaljenost i ispisuje se pređena udaljenost za taj dan.
-Grupa C - ukupan broj pređenih metara u nedelji za unetog atletičara
+- Grupa A - dan u nedelji u kome je atletičar prešao najveću udaljenost i ispisuje se pređena udaljenost za taj dan.
+- Grupa B - dan u nedelji u kome je atletičar prešao najmanju udaljenost i ispisuje se pređena udaljenost za taj dan.
+- Grupa C - ukupan broj pređenih metara u nedelji za unetog atletičara
 
 *Napomena:* Podaci o svim atletičarima se posmatraju u istoj nedelji. Svaki atletičar može da istrči više dana u istoj nedelji. Svaki red u datoteci predstavlja podatak koliko je posmatrani atletičar prešao tog dana.
 
@@ -44,9 +44,9 @@ Sadržaj txt fajla sportisti.txt:
 	Zoran|13|200
 
 Nakon pokretanja programa:
-Grupa D - unosi ime sportiste, nakon čega se na ekranu brzina kretanja sportiste.
-Grupa E - unosi se naredba maksimum, nakon čega se na ekranu ispisuje najbrži sportista (sportista koji ima najveću brzinu kretanja razdaljina_u_metrima/vreme_u_sekundama)
-Grupa F - unosi se naredba minimuim, nakon čega se na ekranu ispisuje najsporiji sportista (sportista koji ima najmanju brzinu kretanja razdaljina_u_metrima/vreme_u_sekundama)
+- Grupa D - unosi ime sportiste, nakon čega se na ekranu brzina kretanja sportiste.
+- Grupa E - unosi se naredba maksimum, nakon čega se na ekranu ispisuje najbrži sportista (sportista koji ima najveću brzinu kretanja razdaljina_u_metrima/vreme_u_sekundama)
+- Grupa F - unosi se naredba minimuim, nakon čega se na ekranu ispisuje najsporiji sportista (sportista koji ima najmanju brzinu kretanja razdaljina_u_metrima/vreme_u_sekundama)
 
 *Napomena:* Jedan sportista može imati jedan zapis u datoteci.
 	
@@ -65,12 +65,12 @@ gde je:
 
 Napisati program u programskom jeziku Python koji učitava datoteku u zadatom obliku, potom:
 
-Grupa G - korisnik unosi komunalni_broj_vozila i ispisuje prosečno trajanje vožnje traženog vozila (suma svih trajanje_vožnje/ukupan_broj_voznji za dato vozilo)
-Grupa H - na ekranu se ispisuje ukupni pređeni put svakog vozila
-Grupa I - korisnik unosi komunalni_broj_vozila i ispisuje se vrednost najbrže vožnje zadatog vozila (maksimalna vrednost brzine kretanja vozila pređeni_put/trajanje_vožnje)
-Grupa J - korisnik unosi komunalni_broj_vozila i ispisuje se vrednost najsporije vožnje zadatog vozila (minimalna vrednost brzine kretanja vozila pređeni_put/trajanje_vožnje)
-Grupa K - korisnik unosi komandu u konzoli najbrza_vozila i ispisuju se sva vozila koja imaju najbrže vreme dolaska vozila na polazište (minimalna vrednost vreme_dolaska vozila)
-Grupa L - korisnik unosi komandu u konzoli najsporija_vozila i ispisuje se sva vozila koja imaju najsporije vreme dolaska vozila na polazište (maksimalna vrednost vreme_dolaska vozila)
+- Grupa G - korisnik unosi komunalni_broj_vozila i ispisuje prosečno trajanje vožnje traženog vozila (suma svih trajanje_vožnje/ukupan_broj_voznji za dato vozilo)
+- Grupa H - na ekranu se ispisuje ukupni pređeni put svakog vozila
+- Grupa I - korisnik unosi komunalni_broj_vozila i ispisuje se vrednost najbrže vožnje zadatog vozila (maksimalna vrednost brzine kretanja vozila pređeni_put/trajanje_vožnje)
+- Grupa J - korisnik unosi komunalni_broj_vozila i ispisuje se vrednost najsporije vožnje zadatog vozila (minimalna vrednost brzine kretanja vozila pređeni_put/trajanje_vožnje)
+- Grupa K - korisnik unosi komandu u konzoli najbrza_vozila i ispisuju se sva vozila koja imaju najbrže vreme dolaska vozila na polazište (minimalna vrednost vreme_dolaska vozila)
+- Grupa L - korisnik unosi komandu u konzoli najsporija_vozila i ispisuje se sva vozila koja imaju najsporije vreme dolaska vozila na polazište (maksimalna vrednost vreme_dolaska vozila)
 
 Sadržaj txt fajla voznje.txt:
 
