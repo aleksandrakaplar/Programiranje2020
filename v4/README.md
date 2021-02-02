@@ -48,6 +48,6 @@ Slika 5 prikazuje klase sa metodama.
 Slika 5.
 
 
-Zadaci za vežbu/domaći
+### Zadaci za vežbu/domaći
 
 1. Napisati program za računanje obima i površine kruga, pravougaonika, kvadrata. Svaki geometrijski oblik predstaviti u vidu klase, atribute (poluprečnik, stranice, obim i površina) definisati u vidu atributa instance klasa. Napraviti metode unutar klasa koje određuju obim i površinu geometrijskih oblika.
