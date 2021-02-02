@@ -15,7 +15,7 @@ U OOP možemo da ograničimo pristup metodama i atributima. Ovo sprečava da mod
 
 ### Enkapsulacija (Encapsulation) 
 
-[primer01.py](../primeri/primer01.py)
+[primer01.py](/v5/primeri/primer01.py)
 
 Enkapsulacija je koncept spajanja relevantnih atributa (promenljivih) i metoda koje rade sa tim atributima na jedno mesto (klasa/objekat). 
 
@@ -31,7 +31,7 @@ Ako biste želeli da omogućite izmenu privatnog atributa to može uz pomoć set
 
 ### Apstrakcija (Abstraction) 
 
-[primer02.py](../primeri/primer02.py)
+[primer02.py](/v5/primeri/primer02.py)
 
 Apstrakcija je proces izvlačenje javnih interface-a od implementacionih detalja. Korisnik zna šta može da radi, ali ne zna kako to radi. 
 
@@ -42,7 +42,7 @@ Na ovaj način objekat papagaj nema veze sa metodama koje se nalaze u objektu ka
 
 ### Asocijacija kompozicija i agregacija (Composition and Aggregation)
 
-[primer03.py](../primeri/primer03.py)
+[primer03.py](/v5/primeri/primer03.py)
 
 #### Asocijacija (has-a)
 
