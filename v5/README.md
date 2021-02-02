@@ -28,6 +28,7 @@ Atribut __serijski_broj je privatni atribut koji može da bude izmenjen samo unu
 Ako biste želeli da omogućite izmenu privatnog atributa to može uz pomoć setter metode. 
 
 ![slika1](/slike/v5/slika1.png)
+Slika 1.
 
 ### Apstrakcija (Abstraction) 
 
@@ -39,6 +40,7 @@ Na slici 2 smo definisali klasu Papagaj i Kavez. Papagaj ima novu metodu leti. P
 Na ovaj način objekat papagaj nema veze sa metodama koje se nalaze u objektu kavez. 
 
 ![slika2](/slike/v5/slika2.png)
+Slika 2.
 
 ### Asocijacija kompozicija i agregacija (Composition and Aggregation)
 
@@ -49,11 +51,13 @@ Na ovaj način objekat papagaj nema veze sa metodama koje se nalaze u objektu ka
 Asocijacija prestavlja vezu između objekata različitih tipova klasa. Uz pomoć ovakvih veza objekat jedne klase može da izvršava metode objekta iz druge klase. Kompozicija i agregacija su specijalni oblici asocijacije. (Slika 3.)
 
 ![slika3](/slike/v5/slika3.png)
+Slika 3.
 
 Asocijacija je slaba veza između dva ili više objekata različitih tipova klasa. Objekti su nezavisni jedni od drugih. 
 Primer takve veze može da bude primer papagaja i kaveza, ali sa jednom izmenom. U kavezu može da živi više papagaja. Dok jedan papagaj može da živi u jednom ili nijednom kavezu. (Slika 4.) Novi primer predstavlja papagaja koji može da živi i van kaveza (nazavisno od kaveza). Kavez postoji nezavisno od papagaja u oba slučajeva.
 
 ![slika4](/slike/v5/slika4.png)
+Slika 4.
 
 Asocijacije mogu da budu predstavljena preko UML dijagrama u vidu usmerenih strelica koje mogu da opisuju veze jedan na prema jedan (eng. one-to-one), jedan na prema više (eng. one-to-many) ili više na prema više (eng. many-to-many). Ovo su mogući kardinaliteti koje možemo da zadajemo vezama između objekata.
 Primer sa papagajom i kavezom je veza one-to-many. 
@@ -63,11 +67,13 @@ Primer sa papagajom i kavezom je veza one-to-many.
 Agregacija je specijalni oblik asocijacije gde objekti ražličitih tipova klasa nezavise jedni od drugih. Primer [primer02.py](../primeri/primer02.py), Papagaj i kavez. Uz pomoć UML dijagrama veza agregacije je prestavljena kao otvoren dijamant. Dijamant pokazuje na kontajnter klasu. (Slika 5.)
 
 ![slika5](/slike/v5/slika5.png)
+Slika 5.
 
 #### Kompozicija (Composition) 
 
 Kompozicija označava da su objekti dve ili više različitih klasa zavisni jedan od drugog. Primer, Papagaj i Jaje. Jaje ne može da nastane bez Papagaja. Ako Papagaj ne postoji, nema ni jajeta. Uz pomoć UML dijagrama veza kompozicija je prestavljena kao zatvoreni dijamant. Dijamant pokazuje na kontajnter klasu. (Slika 6.)
 
 ![slika6](/slike/v5/slika6.png)
+Slika 6.
 
 
