@@ -22,13 +22,19 @@ class Parrot:
     def get_serial_number(self):
         print(f"Parrot {self.name} has serial number {self.__serial_number}")
         return self.__serial_number
+    
+    def set_serial_number(self, serial_number):
+        self.__serial_number = serial_number
         
 
 if __name__ == '__main__':
     parrot1 = Parrot("Polly", "Ara", 5, "blue")
     
-    parrot1.get_serial_number()
-    parrot1.sleeps()
+    number = parrot1.get_serial_number()
+    #print(f"Parrot {parrot1.name} has serial number {number}")
+    
+    return_value = parrot1.sleeps()
+    print(return_value)
     
     parrot2 = Parrot("Molly", "Ara", 4, "red")  
     parrot2.get_serial_number()

@@ -82,4 +82,14 @@ Kompozicija označava da su objekti dve ili više različitih klasa zavisni jeda
 
 Slika 6.
 
+## Zadatak 1
+
+Implementirati konzolnu aplikaciju za vođenje evidencije knjiga u Biblioteki. Svaka knjiga je opisana sa klasom Knjiga. Klasa Knjiga ima sledeće atribute: isbn (jedinstven identifikator), naslovom (string), autorom (string), žanrovima (lista) i biblioteka u kojoj se nalazi (biblioteka). Biblioteka je opisana preko klase Biblioteka. Klasa Biblioteka sadrži atribute: naziv (string), knjige (lista Knjiga). 
+Aplikacija treba da podrži sledeće funkcionalnosti: 
+1. Dodavanje nove knjige u biblioteku. Knjiga prilikom kreiranja treba automatski da se doda u biblioteku. Dodatno ograničenje: treba da se postuje jedinstveni identifikator, tj. ne mogu dve knjige da imaju isti ISBN.
+2. Izlistavanja podataka o biblioteci. Naziv i knjige koje se nalaze u biblioteci.
+3. Izlistavanje podataka o knjizi. Treba da se prikažu svi atributi koji opisuju jednu knjigu. Knjiga se pretražuje preko atributa ISBN.
+ 
+Radi jednostavnosti, sistem treba da ima samo jednu biblioteku i više knjiga. Svi podaci se kreiraju programski. Nije neophodno podržati rad sa fajlovima.
+Klase Knjiga i Biblioteka se nalaze u vezi one-to-many. Knjiga se nalazi u jednoj biblioteci, a biblioteka sadrži više knjiga.
 
