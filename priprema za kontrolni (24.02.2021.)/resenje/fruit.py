@@ -9,5 +9,8 @@ class Fruit:
     def add_to_basket(self, basket):
         self.basket = basket
 
+    def remove_from_basket(self):
+        self.basket = None
+
     def __str__(self):
         return f"Fruit: {self.name}, type of: {self.type_of_fruit}\n"

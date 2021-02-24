@@ -13,7 +13,7 @@ def create_basket():
 def create_fruit():
     fruit_id = input("Set fruit id:")
     name = input("Set name of fruit:")
-    type_of_fruit = input("Set type of fruit (apple, cherry, raspberry")
+    type_of_fruit = input("Set type of fruit (apple, cherry, raspberry):")
     fruit = Fruit(fruit_id, name, type_of_fruit)
     fruit_in_storage.append(fruit)
 
@@ -23,26 +23,27 @@ def list_all_fruits_in_storage():
         print(fruit)
 
 
-def get_fruit_from_storage_by_index(fruit_id):
+def get_fruit_list_of_fruits_by_index(fruit_id, fruits):
     index = -1
-    for i in range(len(fruit_in_storage)):
-        if fruit_in_storage[i].fruit_id == fruit_id:
+    for i in range(len(fruits)):
+        if fruits[i].fruit_id == fruit_id:
             index = i
             break
-    fruit = fruit_in_storage[index]
+    fruit = fruits[index]
     return fruit
 
 
 def add_fruit_to_basket():
-    fruit_id = input("Get fruit by  fruit_id:")
-    fruit = get_fruit_from_storage_by_index(fruit_id)
+    fruit_id = input("Get fruit by fruit_id:")
+    fruit = get_fruit_list_of_fruits_by_index(fruit_id, fruit_in_storage)
     fruit.add_to_basket(basket)
     basket + fruit
 
 
 def remove_fruit_from_basket():
     fruit_id = input("Get fruit by fruit_id:")
-    fruit = get_fruit_from_storage_by_index(fruit_id)
+    fruit = get_fruit_list_of_fruits_by_index(fruit_id, basket.fruits)
+    fruit.remove_from_basket()
     basket - fruit
 
 
