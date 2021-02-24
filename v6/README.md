@@ -26,5 +26,5 @@ Polimorfizam nam omogućava da definišemo metodu u podklasi (child class) koja 
 
 ## Zadatak za domaći
 
-1. Kreirati klasu Smestaj koji od atributa ima naziv, adresu i grad. Od funkcija treba da se redefiniše (override) metoda __str__ koja će da vraća vrednosti prethodno pomenutih atributa.  Kreirati klasu Hotel koja nasleđuje klasu Smeštaj. Pored nasleđenih atributa iz klase Smeštaj, klasa Hotel treba da ima atribut broj zvezdica hotela. Hotel redefiniše metodu __str__ gde treba da se prikažu svi podaci vezani za Hotel (uključujući i nasleđene podatke iz Smeštaja).
+1. Kreirati klasu Smestaj koji od atributa ima naziv, adresu i grad. Od funkcija treba da se redefiniše (override) metoda \_\_str_\_ koja će da vraća vrednosti prethodno pomenutih atributa.  Kreirati klasu Hotel koja nasleđuje klasu Smeštaj. Pored nasleđenih atributa iz klase Smeštaj, klasa Hotel treba da ima atribut broj zvezdica hotela. Hotel redefiniše metodu \_\_str_\_ gde treba da se prikažu svi podaci vezani za Hotel (uključujući i nasleđene podatke iz Smeštaja).
 Omogućiti kreiranje Smeštaja tj. kreiranje Hotela, ispis svih kreiranih Hotela.
