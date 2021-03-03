@@ -35,7 +35,9 @@ Sistem je opisan uz pomoć dve klase. Svaka klasa treba da se nalazi u zasebnom 
 	- posta (posta u kojoj se nalazi paket)
 	
 	metode:
-		- redefinisana metoda: \_\_str_\_()
+	
+	- redefinisana metoda: \_\_str_\_()
+	
 	#### Grupa 4
 	- redefinisana metoda - (  \_\_gt\_\_()   )
 	#### Grupa 5
