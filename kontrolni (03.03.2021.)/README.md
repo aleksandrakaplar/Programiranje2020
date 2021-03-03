@@ -35,9 +35,9 @@ Sistem je opisan uz pomoć dve klase. Svaka klasa treba da se nalazi u zasebnom 
 	metode:
 		- redefinisana metoda: \_\_str_\_()
 	#### Grupa 4
-	- redefinisana metoda - (  \_\_lt\_\_()   )
+	- redefinisana metoda - (  \_\_gt\_\_()   )
 	#### Grupa 5
-	- redefinisana metoda - (  _\_gt\_\_()   )
+	- redefinisana metoda - (  _\_lt\_\_()   )
 		
 Implementirati sledeće funkcionalnosti u vidu stavke menija. Meni se nalazi u zasebnom modulu pod nazivom main.py: 
 
