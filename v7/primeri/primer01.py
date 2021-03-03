@@ -50,6 +50,7 @@ class Library:
         self.books.append(book)
         return f"Book with isbn {book.isbn} successfully added!"
 
+
     def __add__(self, other):
         """
         Method that overloads the operator +
@@ -108,8 +109,8 @@ def creat_add_book(library: Library, book: Book):
     :param book:
     :return:
     """
-    print(library.add_a_book(book))
-    # print(library + book)
+    #print(library.add_a_book(book))
+    print(library + book)
     print(f"Total number of books in library: {len(library)}")
 
 
@@ -143,11 +144,11 @@ if __name__ == "__main__":
     creat_add_book(library1, book3)
 
     # Example 02
-    peron1 = Person(111111111)
-    print(peron1.introduction("Kevin"))
+    person1 = Person(111111111)
+    print(person1.introduction("Kevin"))
 
-    peron2 = Person(222222222)
-    print(peron1.introduction("John", 21))
+    person2 = Person(222222222)
+    print(person1.introduction("John", 21))
 
-    peron2 = Person(333333333)
-    print(peron1.introduction("Anna", 23, "teacher"))
+    person2 = Person(333333333)
+    print(person1.introduction("Anna", 23, "teacher"))
