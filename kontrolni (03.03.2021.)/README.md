@@ -9,14 +9,15 @@ Implementirati sistem koji vodi evidenciju o poštanskim pošiljkama u pošti.
 Sistem je opisan uz pomoć dve klase. Svaka klasa treba da se nalazi u zasebnom modulu (posta.py i paket.py): 
 1. Posta 
 	atributi su:
-		- id_poste (jedinstven identifikator)
-		- adresa (ulica, broj, mesto)
-		- paketi (lista objekta klase Paket)
+	- id_poste (jedinstven identifikator)
+	- adresa (ulica, broj, mesto)
+	- paketi (lista objekta klase Paket)
 		
 	metode:
-		- redefinisana metoda \_\_str_\_()
-		- redefinisan operator + (   \_\_add_\_()    )
-		
+	
+	- redefinisana metoda \_\_str_\_()
+	- redefinisan operator + (   \_\_add_\_()    )
+	
 	#### Grupa 1
 	- redefinisan operator - (  \_\_sub\_\_()    )
 	#### Grupa 2
@@ -26,12 +27,13 @@ Sistem je opisan uz pomoć dve klase. Svaka klasa treba da se nalazi u zasebnom 
 		
 2. Paket
 	atributi su:
-		- broj_paketa
-		- primaoc (ime, prezime, ulica, broj i mesto stanovanja) - string
-		- posiljalac (ime, prezime, ulica, broj i mesto stanovanja)- string
-		- preporuceno (boolean)
-		- tezina_paketa
-		- posta (posta u kojoj se nalazi paket)
+	- broj_paketa (jedinstven identifikator)
+	- primaoc (ime, prezime, ulica, broj i mesto stanovanja) - string
+	- posiljalac (ime, prezime, ulica, broj i mesto stanovanja)- string
+	- preporuceno (boolean)
+	- tezina_paketa
+	- posta (posta u kojoj se nalazi paket)
+	
 	metode:
 		- redefinisana metoda: \_\_str_\_()
 	#### Grupa 4
@@ -85,7 +87,7 @@ Npr. korisnik odabere da vrši pretragu po broj_paketa, potom mora da unese vred
 Potrebno je redefinisati metodu greater than (  _\_gt\_\_()  )
 Poziv paket1 > paket2 poziva se metoda _\_gt\_\_() gde je nephodno implementirati logiku kada je paket1 veći od paket2 tj.
 	if self.tezina > paket.tezina:
-		return True
+	&nbsp;&nbsp;return True
 	return False
 
 paket1 > paket2 prvi operand paket1 je self parametar, drugi operand je drugi parametar (po defaultu se zove other)
@@ -99,7 +101,7 @@ Ako ne postoji trenutno ni jedan paket u posti ispisati poruku: "Trenutno nema p
 Potrebno je redefinisati metodu less than (  _\_lt\_\_()  )
 Poziv paket1 < paket2 poziva se metoda _\_lt\_\_() gde je nephodno implementirati logiku kada je paket1 veći od paket2 tj.
 	if self.tezina < paket.tezina:
-		return True
+	&nbsp;&nbsp;&nbsp;return True
 	return False
 
 paket1 > paket2 prvi operand paket1 je self parametar, drugi operand je drugi parametar (po defaultu se zove other)
