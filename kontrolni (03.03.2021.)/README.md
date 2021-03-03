@@ -1,4 +1,3 @@
-
 # Kontrolni 03.03.2021.
 *Napomene:*
 Validacije prilikom kreiranja objekata nije neophodno implementirati.
@@ -16,10 +15,10 @@ Sistem je opisan uz pomoć dve klase. Svaka klasa treba da se nalazi u zasebnom 
 		
 	metode:
 		- redefinisana metoda \_\_str_\_()
-		- redefinisan operator + (\_\_add_\_())
+		- redefinisan operator + (   \_\_add_\_()    )
 		
 	#### Grupa 1
-	- redefinisan operator - (\_\_sub\_\_())
+	- redefinisan operator - (  \_\_sub\_\_()    )
 	#### Grupa 2
 	- modifikacija_paketa(broj_paketa)
 	#### Grupa 3
@@ -36,9 +35,9 @@ Sistem je opisan uz pomoć dve klase. Svaka klasa treba da se nalazi u zasebnom 
 	metode:
 		- redefinisana metoda: \_\_str_\_()
 	#### Grupa 4
-	- redefinisana metoda - (\_\_lt\_())
+	- redefinisana metoda - (  \_\_lt\_\_()   )
 	#### Grupa 5
-	- redefinisana metoda - (_\_gt\_())
+	- redefinisana metoda - (  _\_gt\_\_()   )
 		
 Implementirati sledeće funkcionalnosti u vidu stavke menija. Meni se nalazi u zasebnom modulu pod nazivom main.py: 
 
@@ -83,8 +82,8 @@ Npr. korisnik odabere da vrši pretragu po broj_paketa, potom mora da unese vred
 ## Grupa 4 
 
 7. Sortiranje paketa u pošti po rastućoj vrednosti težine paketa
-Potrebno je redefinisati metodu greater than (_\_gt\_())
-Poziv paket1 > paket2 poziva se metoda _\_gt\_() gde je nephodno implementirati logiku kada je paket1 veći od paket2 tj.
+Potrebno je redefinisati metodu greater than (  _\_gt\_\_()  )
+Poziv paket1 > paket2 poziva se metoda _\_gt\_\_() gde je nephodno implementirati logiku kada je paket1 veći od paket2 tj.
 	if self.tezina > paket.tezina:
 		return True
 	return False
@@ -97,8 +96,8 @@ Ako ne postoji trenutno ni jedan paket u posti ispisati poruku: "Trenutno nema p
 ## Grupa 5 
 
 7. Sortiranje paketa u pošti po opadajućoj vrednosti težine paketa
-Potrebno je redefinisati metodu less than (_\_lt\_())
-Poziv paket1 < paket2 poziva se metoda _\_lt\_() gde je nephodno implementirati logiku kada je paket1 veći od paket2 tj.
+Potrebno je redefinisati metodu less than (  _\_lt\_\_()  )
+Poziv paket1 < paket2 poziva se metoda _\_lt\_\_() gde je nephodno implementirati logiku kada je paket1 veći od paket2 tj.
 	if self.tezina < paket.tezina:
 		return True
 	return False
