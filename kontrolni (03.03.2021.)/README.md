@@ -85,11 +85,12 @@ Npr. korisnik odabere da vrši pretragu po broj_paketa, potom mora da unese vred
 
 7. Sortiranje paketa u pošti po rastućoj vrednosti težine paketa
 Potrebno je redefinisati metodu greater than (  _\_gt\_\_()  )
-Poziv paket1 > paket2 poziva se metoda _\_gt\_\_() gde je nephodno implementirati logiku kada je paket1 veći od paket2 tj.
-	if self.tezina > paket.tezina:
-	&nbsp;&nbsp;return True
-	return False
-
+Poziv paket1 > paket2 poziva se metoda _\_gt\_\_() gde je nephodno implementirati logiku kada je paket1 veći od paket2 tj.<br/>
+	
+	if self.tezina > paket.tezina:<br/>
+	&nbsp;&nbsp;return True<br/>
+	return False<br/>
+	
 paket1 > paket2 prvi operand paket1 je self parametar, drugi operand je drugi parametar (po defaultu se zove other)
 Logiku za sortiranje smo pokazali u primeru bubble_sort.py.
 
@@ -99,11 +100,12 @@ Ako ne postoji trenutno ni jedan paket u posti ispisati poruku: "Trenutno nema p
 
 7. Sortiranje paketa u pošti po opadajućoj vrednosti težine paketa
 Potrebno je redefinisati metodu less than (  _\_lt\_\_()  )
-Poziv paket1 < paket2 poziva se metoda _\_lt\_\_() gde je nephodno implementirati logiku kada je paket1 veći od paket2 tj.
-	if self.tezina < paket.tezina:
-	&nbsp;&nbsp;&nbsp;return True
-	return False
-
+Poziv paket1 < paket2 poziva se metoda _\_lt\_\_() gde je nephodno implementirati logiku kada je paket1 veći od paket2 tj.<br/>
+	
+	if self.tezina < paket.tezina: <br/>
+	&nbsp;&nbsp;return True<br/>
+	return False<br/>
+	
 paket1 > paket2 prvi operand paket1 je self parametar, drugi operand je drugi parametar (po defaultu se zove other)
 Logiku za sortiranje smo pokazali u primeru bubble_sort.py.
 
