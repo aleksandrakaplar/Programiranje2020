@@ -18,11 +18,13 @@ class Paket:
                  f"Paket se nalazi u posti.\n"
         return result
 
+    # posta1 < posta2
     def __lt__(self, other):
         if self.tezina_paketa < other.tezina_paketa:
             return True
         return False
-
+    
+    # posta1 > posta2
     def __gt__(self, other):
         if self.tezina_paketa > other.tezina_paketa:
             return True

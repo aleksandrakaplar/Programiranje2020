@@ -43,7 +43,9 @@ class Posta:
            result += "posiljaoc "
 
         index_paketa = self.indeks_paketa(paket.broj_paketa)
-        self.paketi[index_paketa] = paket
+        
+        if index_paketa > -1:
+            self.paketi[index_paketa] = paket
 
         print(result)
 
@@ -57,12 +59,12 @@ class Posta:
                     print(paket)
         elif naziv_atributa_paketa == "primaoc":
             for paket in self.paketi:
-                if pretraga in paket.broj_paketa:
+                if pretraga in paket.primaoc:
                     postoji = True
                     print(paket)
         elif naziv_atributa_paketa == "posiljaoc":
             for paket in self.paketi:
-                if pretraga in paket.broj_paketa:
+                if pretraga in paket.posiljaoc:
                     postoji = True
                     print(paket)
 
