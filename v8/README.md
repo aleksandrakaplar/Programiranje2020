@@ -79,6 +79,18 @@ pygame.draw.polygon je metoda sa kojom možemo da crtamo poligone.
 	
 Spisak ostalih oblika koje možete nacrtati se nalazi na sledećem [linku](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect).
 
+###Prikazivanje postojeće slike
+
+Potrebno je da učitamo sliku metodom image.load(putanja_do_slike).
+
+BLIT (eng. bit-boundary block transfer) - logička operacija, gde se block podataka kopira ili prenosi u memoriju.
+Na kanvasu možete prikazati i slike koje se nalaze u fajl sistemu sa metodom blit(). 
+blit(source, dest, area=None, special_flag=0) -> Rect 
+- source: Surface - canvas na kojem će se slika prikazati 
+- dest: (tuple(coordinate) ili Rect - koordinate gorenjeg levog temena slike, ili Rect - koordinate gorenjeg levog temena pravougaonikas
+
+ 
+ 
 # Zadaci za vežbe
 
 1. Kreirati projekat MyFirstGame u PyCharmu  

@@ -22,6 +22,10 @@ if __name__ == '__main__':
 
     done = False
 
+    # load image from file system and scale
+    image = pygame.image.load(r'.\img\picture1.jpg')
+    image = pygame.transform.scale(image, (300, 200))
+
     while not done:
 
         # pygame.event.get() - empties the event queue
@@ -38,6 +42,8 @@ if __name__ == '__main__':
         pygame.draw.rect(canvas, (0, 0, 225), rectangle)
 
         pygame.draw.polygon(canvas, (255, 0, 0), [(50, 100), (100, 50), (150, 100)], 0)
+
+        canvas.blit(image, (150, 250))
 
         # updates entire Surface if no argument is passed, we can update portions of the
         # the Surface if we pass an argument
