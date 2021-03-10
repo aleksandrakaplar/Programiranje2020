@@ -45,7 +45,7 @@ Klasa pygame.Rect predstavlja pravougaonik. Objekat pravougaonik možemo da krei
 Sa pygame.draw metodom možemo da crtanom razne oblike na canvasu. 
 
 pygame.draw.line je metoda sa kojom možemo da crtamo liniju. 
-- rect(surface, color, start_pos, end_pos, width) -> Rect 
+- line(surface, color, start_pos, end_pos, width) -> Rect 
 	- surface: Surface - je canvas na kojem crtamo 
 	- color: Color, int, tuple(int, int, int, [int]) - je boja sa kojom crtamo oblik
 	- start_pos: tuple(int or float, int or float) or list(int or float) - početno teme
@@ -62,7 +62,7 @@ pygame.draw.rect je metoda sa kojom možemo da crtamo pravougaonik.
 	- povratna vrednost je Rect
 
 pygame.draw.circle je metoda sa kojom možemo da crtamo krug. 
-- rect(surface, color, center, radius) -> Rect 
+- circle(surface, color, center, radius) -> Rect 
 	- surface: Surface - je canvas na kojem crtamo 
 	- color: Color, int, tuple(int, int, int, [int]) - je boja sa kojom crtamo oblik
 	- center: tuple(int or float, int or float) or list(int or float, int or float) - centar kruga predstavljen sa (x, y) koordinatama
