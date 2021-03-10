@@ -79,11 +79,11 @@ pygame.draw.polygon je metoda sa kojom možemo da crtamo poligone.
 	
 Spisak ostalih oblika koje možete nacrtati se nalazi na sledećem [linku](https://www.pygame.org/docs/ref/draw.html#pygame.draw.rect).
 
-# Zadatak 
+# Zadaci za vežbe
 
 1. Kreirati projekat MyFirstGame u PyCharmu  
 2. Instalirati pygame paket
-3. Nacrtati svecu kao na slici 2
+3. Nacrtati sledeće slike:
 
 ![slika2](/slike/v8/sveca.png)
 
