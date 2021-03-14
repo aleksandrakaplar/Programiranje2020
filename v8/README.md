@@ -95,8 +95,16 @@ blit(source, dest, area=None, special_flag=0) -> Rect
 
 1. Kreirati projekat MyFirstGame u PyCharmu  
 2. Instalirati pygame paket
-3. Nacrtati sledeće slike:
+3. Nacrtati sledeće slike: Slika1, Slika2, Slika3
 
 ![slika2](/slike/v8/sveca.png)
 
 Slika 2.
+
+![slika3](/slike/v8/brod.png)
+
+Slika 3.
+
+![slika4](/slike/v8/priroda.png)
+
+Slika 4.
