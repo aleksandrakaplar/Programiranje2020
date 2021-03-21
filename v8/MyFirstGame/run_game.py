@@ -1,6 +1,7 @@
 # we need this line in order to import PyGame framework
 import pygame
 import color_const
+import draw_examples as draw
 
 if __name__ == '__main__':
     # initiates pygame, initializes all the modules required for PyGame
@@ -39,13 +40,20 @@ if __name__ == '__main__':
             # print(event)
 
         # 1. arg: left, 2. arg: top, 3. arg: width, 4. arg: height
-        rectangle = pygame.Rect(50, 100, 100, 50)
+        # rectangle = pygame.Rect(50, 100, 100, 50)
         # 1 arg: surface, 2. arg: color, 3. arg: shape
-        pygame.draw.rect(canvas, (0, 0, 225), rectangle)
+        # pygame.draw.rect(canvas, (0, 0, 225), rectangle)
 
-        pygame.draw.polygon(canvas, color_const.RED, [(50, 100), (100, 50), (150, 100)], 0)
+        # pygame.draw.polygon(canvas, color_const.RED, [(50, 100), (100, 50), (150, 100)], 0)
 
-        canvas.blit(image, (150, 250))
+        # canvas.blit(image, (150, 250))
+
+        # Prvi zadatak
+        # draw.draw_candle(canvas)
+        # Drugi zadatak
+        # draw.draw_nature(canvas)
+        # Treci zadatak
+        # draw.draw_boat(canvas)
 
         # updates entire Surface if no argument is passed, we can update portions of the
         # the Surface if we pass an argument
