@@ -13,10 +13,11 @@ Prilikom definisanja kretanja predmeta voditi računa da se svi oblici od kojih 
 <br />
 Na kretanje utičemo tako što menjamo koordinate tj. parametre koji opisuju oblik.
 Npr. Pravougaonik:
-	- menjamo koordinate x i y:
-		- x - osa predmet se pomera levo (ukoliko umanjujemo vrednost x), i desno (ukoliko povećavamo vrednost x)
-		- y - osa predmet se pomera gore (ukoliko umanjujemo vrednost y), i na dole (ukoliko povećavamo vrednost y)
-		- width, height - možemo da utičemo na veličinu pravougaonika 
+
+- menjamo koordinate x i y:
+	- x - osa predmet se pomera levo (ukoliko umanjujemo vrednost x), i desno (ukoliko povećavamo vrednost x)
+	- y - osa predmet se pomera gore (ukoliko umanjujemo vrednost y), i na dole (ukoliko povećavamo vrednost y)
+	- width, height - možemo da utičemo na veličinu pravougaonika 
 
 Prilikom kretanja predmeta može da se desi da je potrebno da vodimo računa da predmet ostane u dimenzijama prozora u kojem predmet prikazujemo. Da predmet ostane u granicama prozora treba da se poštuju restrikcije:
 - duž x - ose: x_predmeta > x_min i x_predmeta < x_max, gde su x_min = 0 i x_max maksimalna širina prozora 
