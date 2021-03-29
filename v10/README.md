@@ -71,7 +71,11 @@ Klasa Color pygame.Color(color_value) ima parametar color_value po kojem se boja
 1. Dopuniti zadatak StageAnimation tako da primer kretanja dinosaurusa funkcioniše na način koji je prikazan na slici 1. Dinosaurus prilikom sudaranja sa kamenom treba da padne, nakon čega nastavlja kretanje.
 2. Dopuniti zadatak StageAnimacija tako da primer kretanja dinosaurusa funkcioniše na način koji je prikazan na slici 2. Dinosaurus prilikom sudaranja sa kamenom treba da ga preskoči, nakon čega nastavlja kretanje.
 <br />
+
 ![slika1](/slike/v10/dino_collision.gif)
+
 Slika 1.
+
 ![slika2](/slike/v10/dino_jump.gif)
+
 Slika 2.
