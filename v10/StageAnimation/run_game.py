@@ -55,8 +55,8 @@ if __name__ == '__main__':
         '''
         01 Example: No movement
         '''
-        draw.new_frame_no_movement(canvas, width, height, y_horizon)
-        in_boundary = True
+        #draw.new_frame_no_movement(canvas, width, height, y_horizon)
+        #in_boundary = True
         '''
         02 Example: With movement
         '''
@@ -72,9 +72,9 @@ if __name__ == '__main__':
         '''
         04 Example: With movement, collision and boundary check
         '''
-        # in_boundary, collision = draw.new_frame_movement3(canvas, width, height, y_horizon, x_dino)
-        # if collision:
-        #    dx_dino = 0
+        in_boundary, collision = draw.new_frame_movement3(canvas, width, height, y_horizon, x_dino)
+        if collision:
+            dx_dino = 0
 
         if not in_boundary:
             x_dino = 0

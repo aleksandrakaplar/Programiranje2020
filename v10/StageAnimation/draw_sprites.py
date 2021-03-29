@@ -16,7 +16,7 @@ def new_frame_no_movement(canvas, width, height, y_horizon):
     # calculate_stage()
 
     draw_background(canvas, width, height, y_horizon)
-    draw_dino(canvas, load.dino_stages, y_horizon)
+    draw_dino(canvas, y_horizon)
 
 
 def new_frame_movement(canvas, width, height, y_horizon, dino_step):
@@ -25,7 +25,7 @@ def new_frame_movement(canvas, width, height, y_horizon, dino_step):
     # calculate_stage()
 
     draw_background(canvas, width, height, y_horizon)
-    draw_dino(canvas, load.dino_stages, y_horizon, dino_step)
+    draw_dino(canvas, y_horizon, dino_step)
 
 
 def new_frame_movement2(canvas, width, height, y_horizon, dino_step):
@@ -34,7 +34,7 @@ def new_frame_movement2(canvas, width, height, y_horizon, dino_step):
     # calculate_stage()
 
     draw_background(canvas, width, height, y_horizon)
-    draw_dino(canvas, load.dino_stages, y_horizon, dino_step)
+    draw_dino(canvas, y_horizon, dino_step)
 
     return check_in_screen(dino_step, y_horizon - load.image_height, width, height)
 
@@ -48,7 +48,7 @@ def new_frame_movement3(canvas, width, height, y_horizon, dino_step):
     calculate_show_image()
 
     draw_background(canvas, width, height, y_horizon)
-    draw_dino(canvas, load.dino_stages, y_horizon, dino_step)
+    draw_dino(canvas, y_horizon, dino_step)
 
     return check_in_screen(dino_step, y_horizon - load.image_height, width, height), collision
 
@@ -62,7 +62,7 @@ def check_in_screen(x, y, x_max, y_max, x_min=0, y_min=0):
 
 
 def check_collision(x_moving_object1, x_object2, y_moving_object1=0, y_object2=0):
-    if x_moving_object1 == x_object2:
+    if x_moving_object1 == x_object2 and image_stage != 0:
         return True
     return False
 
@@ -95,5 +95,5 @@ def draw_background(canvas, width, height, y_horizon):
                  rect=(rock_x, y_horizon - rock_height, rock_width, rock_height))  # draw rock
 
 
-def draw_dino(canvas, dino_stages, y_horizon, x_dino=0, y_dino=0):
-    canvas.blit(dino_stages[image_stage][image_index], (x_dino, y_horizon - load.image_height + 15 + y_dino))
+def draw_dino(canvas, y_horizon, x_dino=0, y_dino=0):
+    canvas.blit(load.dino_stages[image_stage][image_index], (x_dino, y_horizon - load.image_height + 15 + y_dino))
