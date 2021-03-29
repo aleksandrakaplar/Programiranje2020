@@ -2,7 +2,7 @@
 
 ## Pokretanje slike  
 
-Primer: [MovingImages](/v9/primeri/MovingImages)
+Primer: [MovingImages](/v9/MovingImages)
 
 Pokretna slika se sastoji iz više slika eng. frames. Više slika prikazanih u sekvenci daju nam iluziju animacije, tj. objekti na slici deluju da se kreću. 
 Prilikom prikaza animacije u jednoj iteraciji while petlje mi prikazujemo jedan frame. 
