@@ -51,13 +51,36 @@ if __name__ == '__main__':
         x_boat += dx_boat
         x_cloud += dx_cloud
 
-
-        # Example 01
-        in_boundary = moving_img.draw_boat(canvas, x_boat, y_boat)
+        # Pokazni zadatak
+        _, in_boundary, _ = moving_img.draw_boat(canvas, x_boat, y_boat)
 
         if not in_boundary:
             dx_boat = -dx_boat
 
+        '''
+        Zadatak 01
+        in_boundary, check_collision = moving_img.draw_boat(canvas, x_boat, y_boat)
+        if check_collision or y_boat > 0:
+            y_boat += dy_boat
+            dx_boat = 0
+        elif not in_boundary:
+            dx_boat = -dx_boat
+        '''
+        '''
+        Zadatak 02
+
+        in_boundary_cloud, in_boundary_boat, check_collision_boat = moving_img.draw_boat(canvas, x_boat, y_boat,
+                                                                                         x_cloud, y_cloud)
+        if check_collision_boat or y_boat > 0:
+            y_boat += dy_boat
+            dx_boat = 0
+        elif not in_boundary_boat:
+            dx_boat = -dx_boat
+
+        if not in_boundary_cloud:
+            x_cloud = 170
+            y_cloud = 0
+        '''
         # updates entire Surface
         pygame.display.flip()
 

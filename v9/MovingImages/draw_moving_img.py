@@ -24,10 +24,21 @@ def draw_boat(canvas, x_boat, y_boat, x_cloud=0, y_cloud=0, x_cloud_init=345, y_
     pygame.draw.line(canvas, color=colors.BLACK, start_pos=(x_sail_pole_init1 + x_boat, 60 + y_boat),
                      end_pos=(x_sail_pole_init1 + x_boat, 215 + y_boat), width=5)
 
+    # rock
+    pygame.draw.rect(canvas, color=colors.BLACK, rect=(0, 200, 100, 85), width=2)
+
     # water
     pygame.draw.rect(canvas, color=colors.DARK_BLUE, rect=(0, 280, 520, 135))
 
-    return check_in_screen(x_boat_init + x_boat + 215, y_boat + 65, x_min=215, y_min=65)
+    return check_in_screen(x_cloud_init + x_cloud+155, y_cloud_init + y_cloud, x_max=700), \
+           check_in_screen(x_boat_init + x_boat + 215, y_boat + 65, x_min=215, y_min=65), \
+           check_collision(x_boat_init + x_boat, 100)
+
+
+def check_collision(x_moving_object1, x_object2, y_moving_object1=0, y_object2=0):
+    if x_moving_object1 <= x_object2:
+        return True
+    return False
 
 
 def check_in_screen(x, y, x_max=520, y_max=415, x_min=0, y_min=0):
