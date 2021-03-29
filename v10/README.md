@@ -5,7 +5,7 @@ Primer: [StageAnimation](/v10/StageAnimation)
 # Animacija učitanih slika 
 
 Do sada smo predstavljali predmete na kanvasu kao skup geometrijskih oblika koje smo iscrtavali uz pomoć pygame.draw metode. Prilikom pokretanja smo menjali koordinate x (kretanje levo, desno) i y (kretanje gore, dole) svih geometrijskih oblika od kojih je predmet sačinjen. <br />
-Ove nedelje ćemo učitavati skup slika eng. sprite. Pozivom ovih slika dobijamo efekat kretanja predmeta na kanvasu. Slike se učitavaju sa pygame.image.load(putanja_do_slike) metodom i iscrtavaju se na kanvas sa canvas.blit(ucitana_slika) metodom. Sprite sa kojim ćemo raditi je dinosaurus koji se nalazi na [linku](/sprites/png/dino). Postoje dosta besplatnih slika online npr. [link](https://www.gameart2d.com/freebies.html).
+Ove nedelje ćemo učitavati skup slika eng. sprite. Pozivom ovih slika dobijamo efekat kretanja predmeta na kanvasu. Slike se učitavaju sa pygame.image.load(putanja_do_slike) metodom i iscrtavaju se na kanvas sa canvas.blit(ucitana_slika) metodom. Sprite sa kojim ćemo raditi je dinosaurus koji se nalazi na [linku](/sprites/v10/png/dino). Postoje dosta besplatnih slika online npr. [link](https://www.gameart2d.com/freebies.html).
 <br />
 
 ## Priprema slika za iscrtavanje 
