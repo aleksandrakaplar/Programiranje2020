@@ -20,7 +20,7 @@ Moguća stanja su u rečniku predstavljena kao ključevi i imaju redom vrednosti
 - 3 (Run)
 - 4 (Walk)
 
-Za svako stanje postoji skup slika u [folderu](/sprites/png/dino). Vrednosti prethodno nabrojanih ključeva su učitane korespodentne slike za data stanja. Npr. za stanje Idle, kada dino stoji, imamo 10 slika (Idle(1), Idle(2), itd.) i ove slike će biti učitane kao elementi liste images_dino_idle. Potom će ova lista da bude dodata odgovarajućem ključu unutar rečnika (npr. dino_stages["Idle"] = images_dino_idle, itd.). Neophodno je na odgovarajući način učitati sve slike, i grupisati ih unutar kolekcije kao što je npr. rečnik.
+Za svako stanje postoji skup slika u [folderu](/sprites/v10/png/dino). Vrednosti prethodno nabrojanih ključeva su učitane korespodentne slike za data stanja. Npr. za stanje Idle, kada dino stoji, imamo 10 slika (Idle(1), Idle(2), itd.) i ove slike će biti učitane kao elementi liste images_dino_idle. Potom će ova lista da bude dodata odgovarajućem ključu unutar rečnika (npr. dino_stages["Idle"] = images_dino_idle, itd.). Neophodno je na odgovarajući način učitati sve slike, i grupisati ih unutar kolekcije kao što je npr. rečnik.
 
 <br />
 
