@@ -55,8 +55,8 @@ if __name__ == '__main__':
         '''
         01 Example: No movement
         '''
-        #draw.new_frame_no_movement(canvas, width, height, y_horizon)
-        #in_boundary = True
+        # draw.new_frame_no_movement(canvas, width, height, y_horizon)
+        # in_boundary = True
         '''
         02 Example: With movement
         '''
@@ -66,15 +66,31 @@ if __name__ == '__main__':
         03 Example: With movement and boundary check
         '''
         # in_boundary = draw.new_frame_movement2(canvas, width, height, y_horizon, x_dino)
-        # if not in_boundary:
-        #    x_dino = 0
-
         '''
         04 Example: With movement, collision and boundary check
         '''
+        # in_boundary, collision = draw.new_frame_movement3(canvas, width, height, y_horizon, x_dino)
+        # if collision:
+        #    dx_dino = 0
+
+        '''
+        # 01 Zadatak: Nakon sto udari u kamen i padne da nastavi da hoda
         in_boundary, collision = draw.new_frame_movement3(canvas, width, height, y_horizon, x_dino)
         if collision:
             dx_dino = 0
+        elif dx_dino == 0:
+            dx_dino = 5
+
+        '''
+        # 02 Zadatak: Dino skok kad stigne do kamena
+        in_boundary, collision = draw.new_frame_movement4(canvas, width, height, y_horizon, x_dino, y_dino)
+        if collision:
+            dy_dino = -5
+
+        if abs(y_dino) > y_horizon / 2:
+            dy_dino = -dy_dino
+        elif y_dino > 0:
+            dy_dino = 0
 
         if not in_boundary:
             x_dino = 0
@@ -85,7 +101,7 @@ if __name__ == '__main__':
         pg.display.flip()
 
         # method that is called once per frame, how many milliseconds have passed since the previous value
-        clock.tick(30)
+        clock.tick(20)
 
     pg.quit()
     quit()
