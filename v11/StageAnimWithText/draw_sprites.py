@@ -77,7 +77,7 @@ def new_frame_movement4(canvas, width, height, y_horizon, sprite_step):
 
 
 # Zadatak 02: Nakon sto udari o kamen, treba da ga preskoci pa nastavi da hoda
-def new_frame_movement4(canvas, width, height, y_horizon, sprite_step_x, sprite_step_y):
+def new_frame_movement5(canvas, width, height, y_horizon, sprite_step_x, sprite_step_y):
     # check collision
     collision = check_collision(rock_x, sprite_step_x + load.image_width / 2)
 
@@ -88,7 +88,7 @@ def new_frame_movement4(canvas, width, height, y_horizon, sprite_step_x, sprite_
     draw_background(canvas, width, height, y_horizon)
     draw_sprite(canvas, y_horizon, sprite_step_x, sprite_step_y)
 
-    draw_text(canvas, width)
+    draw_text(canvas, width, height)
 
     return check_in_screen(sprite_step_x, y_horizon - load.image_height, width, height), collision
 

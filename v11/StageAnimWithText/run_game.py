@@ -73,17 +73,20 @@ if __name__ == '__main__':
         # if collision:
         #    dx_sprite = 0
 
-        '''
+
         # 01 Zadatak: Nakon sto udari u kamen i padne da nastavi da hoda
-        in_boundary, collision = draw.new_frame_movement3(canvas, width, height, y_horizon, x_sprite)
+        in_boundary, collision = draw.new_frame_movement4(canvas, width, height, y_horizon, x_sprite)
         if collision:
             dx_sprite = 0
         elif dx_sprite == 0:
             dx_sprite = 5
 
+        if not in_boundary:
+            x_sprite = 0
+
         '''
         # 02 Zadatak: sprite skok kad stigne do kamena
-        in_boundary, collision = draw.new_frame_movement4(canvas, width, height, y_horizon, x_sprite, y_sprite)
+        in_boundary, collision = draw.new_frame_movement5(canvas, width, height, y_horizon, x_sprite, y_sprite)
         if collision:
             dy_sprite = -5
 
@@ -96,7 +99,7 @@ if __name__ == '__main__':
             x_sprite = 0
             # 02 Zadatak: sprite skok kad stigne do kamena
             y_sprite = 0
-
+        '''
         # updates entire Surface
         pg.display.flip()
 

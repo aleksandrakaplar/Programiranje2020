@@ -28,7 +28,7 @@ def load_images(path, name_of_sprite):
 
     # dictionary of sprite movements
     global sprite_stages
-    sprite_stages = {0: images_sprite_dead, 1: images_sprite_fall, 2:images_sprite_hurt,
+    sprite_stages = {0: images_sprite_dead, 1: images_sprite_fall, 2: images_sprite_hurt,
                      3: images_sprite_idle, 4: images_sprite_jump, 5: images_sprite_run,
                      6: images_sprite_slide, 7: images_sprite_walk}
 
